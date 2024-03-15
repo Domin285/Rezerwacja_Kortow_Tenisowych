@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ProjektBazy" namespace="ProjektBazy.Models">
+	<class name="Login">
+		<property name="Login"/>
+		<property name="Haslo"/>
+		<property name="CzyAdmin"/>
+	</class>
+
+	<class name="Event">
+		<property name="Data"/>
+		<property name="Event"/>
+		<property name="Godzina"/>
+		<property name="Kto"/>
+	</class>
+</hibernate-mapping>
